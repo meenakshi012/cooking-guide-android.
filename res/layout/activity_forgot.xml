@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rgukt.cooking.forgot"
+    android:orientation="vertical"
+    android:background="@drawable/i">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="enter email here"
+       android:textColor="#FFFF"
+       android:textColorHint="#FFFF"
+       android:id="@+id/email"
+       android:layout_marginTop="20dp"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="#FFFF"
+        android:inputType="phone"
+        android:textColorHint="#FFFF"
+        android:hint="enter your phone number"
+        android:id="@+id/ph"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter password"
+        android:textColorHint="#FFFF"
+        android:textColor="#FFFF"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="90dp"
+        android:text="submit"
+        android:background="@drawable/rounded"
+        android:onClick="submit"/>
+
+</LinearLayout>

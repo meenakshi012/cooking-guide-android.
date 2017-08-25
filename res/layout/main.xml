@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h"
+    >
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/spi"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/newrounded"
+        >
+
+    </Spinner>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <AutoCompleteTextView
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:hint="Search by available ingredients"
+            android:textColorHint="#FFFF"
+            android:id="@+id/sear"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+
+            android:textSize="15dp"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:text="ok"
+            android:onClick="geting"
+            android:textColor="#FFFF"
+            android:id="@+id/button"
+            android:background="@drawable/round1"
+            android:layout_height="50dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="#FFDED067"
+        android:id="@+id/sho"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="search"
+        android:background="@drawable/rounded_edge"
+        android:textColor="#000000"
+        android:onClick="search"
+        />
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/gv"
+        android:numColumns="2">
+    </GridView>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.rgukt.cooking.about"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="About"
+        android:fontFamily="cursive"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView4"
+        android:text="About is in riueori\nfoueoriueoriueor\nfoeuroeiure
+                      \nfoeuroeiuroeiruoeruoeuroerue\nfouroeiuroeiruoeuroe"
+        android:layout_weight="1.01" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed By:"
+        android:fontFamily="cursive"
+        android:textSize="20dp"
+        android:layout_marginLeft="200dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:text="N120946\t Prasad\n N120014\t Pragna\nN120015 \t Shyamla\n N120012 \t Meenakshi"/>
+</LinearLayout>
